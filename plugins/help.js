@@ -57,7 +57,7 @@ module.exports = {
 │ 🔹 Usage: ${command.usage || command.usages?.join("\n│   ") || "Not defined"}
 │ 🔹 Permission: ${command.permission}
 │ 🔹 Category: ${command.category || "Uncategorized"}
-│ 🔹 Credits: ${command.credit || command.credits || "Mohammad Nayan"}
+│ 🔹 Credits: ${command.credit || command.credits || "𝐀 𝐁 𝐒 𝐌𝐚𝐫𝐮𝐟"}
 ╰────────────────────╯`;
         await api.sendMessage(threadId, { text: infoText });
       } else {
@@ -92,7 +92,7 @@ module.exports = {
     let responseText = `
 ╭─❖  𝗖𝗢𝗠𝗠𝗔𝗡𝗗 𝗠𝗘𝗡𝗨  ❖─╮
 │ 💎 𝘽𝙤𝙩: ${global.config.botName || "EMon System"}
-│ 👑 Owner: ${global.config.botOwner || "Mohammad Nayan"}
+│ 👑 Owner: ${global.config.botOwner || "𝐀 𝐁 𝐒 𝐌𝐚𝐫𝐮𝐟"}
 │ 🌍 Global Prefix: \`${globalPrefix}\`
 │ 👥 Group Prefix: \`${prefix || "Not set (using global)"}\`
 │ 🧩 Version: ${pkg.version}
